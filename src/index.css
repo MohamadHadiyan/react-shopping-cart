@@ -1,12 +1,18 @@
+
+/* import font google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
 *{
   padding:0;
   margin:0;
   outline:0;
   box-sizing: border-box;
-  font-family:  Helvetica, sans-serif;
+  font-family:  'Montserrat', sans-serif;
   list-style: none;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body,#root{
@@ -22,6 +28,8 @@ body,#root{
   height: 100%;
 
 }
+
+/* ====================== Start header area ====================== */
 
 header{
   grid-area: header;
@@ -44,10 +52,126 @@ header a:hover{
   color:#ff8800;
 }
 
+/* ====================== End header area ====================== */
+
+
+/* ====================== Start main area ====================== */
+
 main{
   grid-area: main;
 }
 
+.content{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.main{
+  flex:3 60rem;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.sidebar{
+  flex: 1 20rem;
+  background-color: #a5a5a5;
+  padding: 10px;
+}
+
+/* Products styling */
+.products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.products li{
+  flex: 0 1 25rem;
+  height: 45rem;
+  /* padding: 1rem; */
+  margin: 1rem;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #334e5e;
+  border-radius: 4px;
+}
+
+.product img{
+  width: 25rem;
+  height: 35rem;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.product p{
+  padding-left: 20px;
+  font-size: 20px;
+  color: #eee;
+}
+
+.product .product-links:hover >p{
+  color: #ff6600;
+}
+
+.product .product-links:hover >img{
+  filter: brightness(0.8);
+}
+
+.product .product-price{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+
+
+.product .product-price div,
+.product .product-price button{
+  text-align: center;
+  flex: 1;
+  color: #eee;
+}
+
+.product .product-price div{
+  font-size: 2rem;
+  width: 100%;
+}
+
+.product .product-price .button{
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.product .product-price .button.primary{
+  background-color: #ff8800;
+}
+
+.product .product-price .button.primary:hover{
+  background-color: #ff6600;
+  color: #334e5e;
+
+}
+
+
+
+/* ====================== End main area ====================== */
+
+
+
+
+/* ====================== Start footer area ====================== */
 footer{
   grid-area: footer;
   background-color: #223e4e;
@@ -57,3 +181,5 @@ footer{
   align-items:center;
   text-transform: capitalize;
 }
+
+/* ====================== End Footer area ====================== */

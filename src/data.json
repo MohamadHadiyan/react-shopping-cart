@@ -14,7 +14,7 @@
             "image":"/images/dress2.jpg",
             "description":"This is for all the latest trends, no meter",
             "price":18.9,
-            "availableSizes":["X", "L","M"]
+            "availableSizes":["S","X", "L","M"]
         },
         {
             "_id":"dress3",
@@ -22,7 +22,7 @@
             "image":"/images/dress3.jpg",
             "description":"This is for all the latest trends, no meter",
             "price":22.9,
-            "availableSizes":["X", "XL","M"]
+            "availableSizes":["S","X", "XL","M"]
         },
         {
             "_id":"dress4",

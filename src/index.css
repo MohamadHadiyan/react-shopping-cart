@@ -57,6 +57,9 @@ header a:hover{
 
 /* ====================== Start main area ====================== */
 
+
+
+
 main{
   grid-area: main;
 }
@@ -78,7 +81,25 @@ main{
   padding: 10px;
 }
 
-/* Products styling */
+/*=================== Start Filter styling ====================*/
+
+.filter{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.filter div{
+  flex: 1;
+}
+
+
+/*=================== End Filter styling ====================*/
+
+
+/*=================== Start Products styling ====================*/
 .products{
   display: flex;
   justify-content: center;
@@ -132,8 +153,6 @@ main{
   width: 100%;
 }
 
-
-
 .product .product-price div,
 .product .product-price button{
   text-align: center;
@@ -163,6 +182,9 @@ main{
   color: #334e5e;
 
 }
+
+/*=================== End Products styling ====================*/
+
 
 
 

@@ -39,6 +39,16 @@ body,#root{
   cursor: pointer;
 }
 
+.button.primary{
+  background-color: #ff8800;
+}
+
+.button.primary:hover{
+  background-color: #ff6600;
+  color: #334e5e;
+
+}
+
 /* ====================== Start header area ====================== */
 
 header{
@@ -158,12 +168,12 @@ main{
 }
 
 
-.cart button{
+.cart .total button{
   background-color: #3eee8d;
   border: 3px solid #278b40;
 }
 
-.cart  button:hover{
+.cart .total  button:hover{
   background-color: #3bdd84;
   border: 3px solid #278b40;
 }
@@ -189,9 +199,15 @@ main{
   border-radius: 3px;
 }
 
+.cart .form-container button{
+  background-color: #3eee8d;
+  border: 3px solid #278b40;
+}
 
-
-
+.cart .form-container button:hover{
+  background-color: #3bdd84;
+  border: 3px solid #278b40;
+}
 
 /* ====================== End sidebar area ====================== */
 
@@ -286,20 +302,72 @@ main{
   width: 100%;
 }
 
-.product .product-price .button.primary{
-  background-color: #ff8800;
-}
-
-.product .product-price .button.primary:hover{
-  background-color: #ff6600;
-  color: #334e5e;
-
-}
 
 /*=================== End Products styling ====================*/
 
 
+/*============= Start Modal styling ================*/
 
+.product-details{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+
+.product-details img{
+  max-height: 86vh;
+  max-width: 40rem;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-details-description{
+  flex:1 1;
+  margin: 1rem;
+}
+
+.product-details-description h1{
+  font-size: 30px;
+  padding: 1rem;
+}
+
+.product-details-description p{
+  margin:2rem 1rem;
+}
+
+.product-details .product-details-description .product-price{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  font-size: 30px;
+}
+
+.product-details .product-details-description .product-price div{
+  flex: 1;
+  font-size: 25px;
+}
+
+.product-details .product-details-description .product-price button{
+  flex: 1;
+}
+
+.close-modal{
+  position: absolute;
+  right: 1rem;
+  top:1rem;
+  z-index: 100;
+  padding: 0 8px;
+  background-color: transparent;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/*============= End Modal styling ================*/
 
 /* ====================== End main area ====================== */
 

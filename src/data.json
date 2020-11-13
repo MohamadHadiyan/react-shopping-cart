@@ -4,7 +4,7 @@
             "_id":"dress1",
             "title":"Midi sundress with shirring detail",
             "image":"/images/dress1.jpg",
-            "description":"This is for all the latest trends, no meter",
+            "description":"This is for all the latest trends, no meter who you are, where your from and what your up to. Exclusive to ASOS, our universal brandis here for you and comes in all our fit range: ASOS Curve, Tall, Petite and Maternity. Create by us, styled by you.",
             "price":29.9,
             "availableSizes":["X", "L","XL","XXL"]
         },
@@ -12,7 +12,7 @@
             "_id":"dress2",
             "title":"Midi sundress with ruched front",
             "image":"/images/dress2.jpg",
-            "description":"This is for all the latest trends, no meter",
+            "description":"This is for all the latest trends, no meter who you are, where your from and what your up to. Exclusive to ASOS, our universal brandis here for you and comes in all our fit range: ASOS Curve, Tall, Petite and Maternity. Create by us, styled by you.",
             "price":18.9,
             "availableSizes":["S","X", "L","M"]
         },
@@ -20,7 +20,7 @@
             "_id":"dress3",
             "title":"Midi sundress with ruched front",
             "image":"/images/dress3.jpg",
-            "description":"This is for all the latest trends, no meter",
+            "description":"This is for all the latest trends, no meter who you are, where your from and what your up to. Exclusive to ASOS, our universal brandis here for you and comes in all our fit range: ASOS Curve, Tall, Petite and Maternity. Create by us, styled by you.",
             "price":22.9,
             "availableSizes":["S","X", "XL","M"]
         },
@@ -28,7 +28,7 @@
             "_id":"dress4",
             "title":"Midi sundress with ruched front",
             "image":"/images/dress4.jpg",
-            "description":"This is for all the latest trends, no meter",
+            "description":"This is for all the latest trends, no meter who you are, where your from and what your up to. Exclusive to ASOS, our universal brandis here for you and comes in all our fit range: ASOS Curve, Tall, Petite and Maternity. Create by us, styled by you.",
             "price":28.9,
             "availableSizes":["XL","M","XXL"]
         },
@@ -36,7 +36,7 @@
             "_id":"dress5",
             "title":"Midi sundress with ruched front",
             "image":"/images/dress5.jpg",
-            "description":"This is for all the latest trends, no meter",
+            "description":"This is for all the latest trends, no meter who you are, where your from and what your up to. Exclusive to ASOS, our universal brandis here for you and comes in all our fit range: ASOS Curve, Tall, Petite and Maternity. Create by us, styled by you.",
             "price":25.9,
             "availableSizes":["XL","L","XXL"]
         },
@@ -44,7 +44,7 @@
             "_id":"dress6",
             "title":"Midi sundress with ruched front",
             "image":"/images/dress6.jpg",
-            "description":"This is for all the latest trends, no meter",
+            "description":"This is for all the latest trends, no meter who you are, where your from and what your up to. Exclusive to ASOS, our universal brandis here for you and comes in all our fit range: ASOS Curve, Tall, Petite and Maternity. Create by us, styled by you.",
             "price":17.9,
             "availableSizes":["XL","L","XXL"]
         }       

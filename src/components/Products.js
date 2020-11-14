@@ -123,4 +123,6 @@ class Products extends Component {
 }
 
 // use connect to return object define witch part of redux state
-export default connect((state) => ({ products: state.products.items }), { fetchProducts })(Products)
+export default connect((state) => (
+    { products: state.products.filteredItems }),
+    { fetchProducts })(Products)

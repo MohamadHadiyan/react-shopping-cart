@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import FormatCurrency from '../Util'
-
 // import fade animation for add product to Cart
 import Fade from 'react-reveal/Fade'
+import { connect } from 'react-redux'
+import { removeFromCart } from '../actions/cartActions'
 
-export default class Cart extends Component {
+class Cart extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -16,7 +17,7 @@ export default class Cart extends Component {
     }
 
     handleInput = (e) => {
-        this.setState({ [e.target.name]: [e.target.value] })
+        this.setState({ [e.target.name]: e.target.value })
     }
 
     createOrder = (e) => {
@@ -126,3 +127,8 @@ export default class Cart extends Component {
     }
 }
 
+export default connect((state) => ({
+    cartItems: state.cart.cartItems
+}),
+    { removeFromCart }
+)(Cart)

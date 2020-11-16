@@ -9,3 +9,8 @@ export const ORDER_PRODUCTS_BY_PRICE = "ORDER_PRODUCTS_BY_PRICE"
 // add to cart and remove from cart types
 export const ADD_TO_CART = "ADD_TO_CART"
 export const REMOVE_FROM_CART = "REMOVE_FROM_CART"
+
+// order types
+export const CREATE_ORDER = "CREATE_ORDER"
+export const CLEAR_ORDER = "CLEAR_ORDER"
+export const CLEAR_CART = "CLEAR_CART"

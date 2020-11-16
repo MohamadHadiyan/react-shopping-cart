@@ -306,7 +306,7 @@ main{
 /*=================== End Products styling ====================*/
 
 
-/*============= Start Modal styling ================*/
+/*============= Start Modal products styling ================*/
 
 .product-details{
   display:flex;
@@ -367,7 +367,50 @@ main{
 }
 
 
-/*============= End Modal styling ================*/
+/*============= End Modal products styling ================*/
+
+
+/*============= Start Modal Order styling ================*/
+
+
+.order-details{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.order-details .success-message{
+  color: #278b40;
+  padding: 15px 10px;
+  font-size: 30px;
+}
+
+.order-details h2{
+  font-size: 25px;
+  padding: 10px;
+}
+
+.order-details li{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-details li div{
+  padding: 15px;
+}
+
+.order-details .items{
+  text-align: right;
+  padding: 0;
+}
+
+
+/*============= End Modal Order styling ================*/
+
+
 
 /* ====================== End main area ====================== */
 
